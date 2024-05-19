@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* header */
+
+h1 {
+    color: red;
+    font-weight: bolder;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+    justify-content: space-between;
+   
+}
+
+.user-panel {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+header nav a {
+    text-decoration: none;
+    color: red;
+    font-size: ;
+}
+
+header nav a:hover {
+    color: black;
+}
+
+input[name="search"] {
+    width: 20vw;
+    max-width: 6rem;
+    padding: 0.3rem 30px 0.3rem 0;
+   
+    
+    
+}
+
+.notification-icon {
+    width: 3rem;
+    border-radius: 100%;
+    border: 1px solid red;
+}
+
+.search-icon{
+    color: red;
+    margin-left: -40px;
+    
+   
+    
+}
+
+
+.notification--icon {
+    color: red;
+    
+}
+
+
+.user-image {
+    width: 5rem;
+    border-radius: 100%;
+    border: 1px solid red;
+}  
+
+
+
+
+/*manin section*/
+
+main{
+    padding: 2vw;
+   
+   
+}
+
+.movie-video{
+    background-color: black;
+    background-size: contain;
+    padding: 2rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.movie-details{
+    font-weight: bold;
+    width: 80%;
+    color: whitesmoke;
+    
+}
+
+.movie-video h2{
+    color: burlywood;
+    font-style: italic;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.rating{
+    padding: 1% 0.3rem;
+    border: 1px solid white;
+    border-radius: 0.3rem;
+    color: white;
+
+}
+
+.rating-section i{
+   color: red;
+   
+}
+
+.movie--details{
+   margin: 1rem 0;
+}
+
+.play-button{
+    border-radius: 1rem;
+    background: red;
+    color: white;
+    display: inline-block;
+    padding: 0.7rem 2.5rem;
+    font-size: 1em;
+}
+
+.play-button i{
+    margin-left: -1.5rem;
+    margin-right: 0.rem;
+    font-size: 1em;
+
+}
+
+
+/*section*/
+
+.suggestion-container{
+    padding: 0rem;
+    
+}
+
+.suggestion-card{
+    margin: 0.8rem;
+    display: inline-block;
+    padding: 0.5rem;
+    background: black;
+    color: white;
+    width: 45%;
+
+    
+}
+
+.suggestion-card .rating{
+    margin-left: 0;
+    color: pink
+
+}
+
+.rating-section .duration{
+    color: pink;
+    padding: 0.2rem;
+ }
+    
+.btn-btn-md{
+    border-radius: 1rem;
+    background: red;
+    color: white;
+    display: inline-block;
+    padding: 0.7rem 2.5rem;
+    font-size: 1em;
+}
+
+.btn-btn-md i {
+    margin-left: -1.5rem;
+    position: absolute;
+    margin-right: 1rem;
+}
+
+.suggestion-header{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.suggestion-card .rating-section{
+    margin-bottom: 1rem;
+}
+   
+.suggestion-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggestion-container h3{
+    color:burlywood;
+}
+
+/*.suggestion-card:nth-child(2) {
+    background: chartreuse;
+} - Önemli Bilgi!!!*/
+
+
+
+
+
+
+
+
+
+  
+    
+    
+ 
+    
+    
+    
+
+
+
+
+
+
+
+/* border-radius: 2rem;
+    background: red;
+    color: white;
+    display: inline-block;
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    margin: 1.5rem;*/
